@@ -1,6 +1,6 @@
 /* Body element */
 body {
-    background-color: #fff;
+    background-image: radial-gradient(circle, #faafff, #ffb1dc, #ffbcc1, #ffccb5, #fbdbba);
     color: rgba(0,0,0,0.8);
     }
     .light-mode body {

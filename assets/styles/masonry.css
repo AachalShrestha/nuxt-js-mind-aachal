@@ -8,6 +8,7 @@
 .masonry-item {
   break-inside: avoid;
   transition: transform 0.3s, box-shadow 0.1s;
+  margin-left: 20px;
 }
 
 .masonry-item:hover {
@@ -17,13 +18,12 @@
 .masonry-image {
   break-inside: avoid;
   transition: filter 0.3s ease-in-out;
-  opacity: 0.5;
-  filter: saturate(0.01); /* Initially desaturated */
+  opacity: 1;
+  filter: blur(1px) saturate(0.2); /* Apply blur initially */
 }
 
 .masonry-image:hover {
-  opacity: 1;
-  filter: saturate(1); /* Full saturation on hover */
+  filter: blur(0px) saturate(1); /* Remove the blur on hover */
 }
 
 .loader {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reenie+Beanie&family=Slackey&display=swap');
+
+
 .main {
     height:auto;
     min-height:100vh;
@@ -18,3 +21,17 @@ hr{
 ul, li {
     list-style: none;
 }
+
+.tags{
+    display: flex;
+    margin-top: 15px;
+}
+.tags p {
+    margin: 0px 10px 10px 0;
+    padding: 7px 15px;
+    border: 0.5px solid black;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+
